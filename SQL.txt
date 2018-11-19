@@ -1,0 +1,41 @@
+repositorio se llama SimRipl
+La tabla se llama Sujetos y sus datos son
+	Nombre		text
+	ApellidoP	text
+	ApellidoM	text
+	Rut		text
+	telefono	int
+	email		text
+	monto		int
+	fechaNac	text
+	fechaPago	text
+	ncuotas		int
+
+
+al final hay que agregar un html que diga lo siguiente:
+
++--------------------------------------------------+
+|Resultado Simulación..............................+
++--------------------------------------------------+
+|Nombre "Nombre ApellidoPaterno ApellidoMaterno    |
+|Rut	"Rut"					   |
+|Email	"email"					   |
+|Telefono de contacto	"telefono"		   |
+|Fecha y hora de simulacion	"fecha_actual"     |
+|Monto liquido del credito	"money"		   |
+|Numero de cuotas               "ncuotas"          |
+|Desfase primera cuota(dias)"fecha actual - fechaPago"|
+|Costo total del credito	
+|Fecha primer Vencimiento
+|Tasa anual
+|Tasa mensual
+|Monto bruto credito
+|Valor cuota
+|CAE
++--------------------------------------------------+
+Gastos o Cargos
++--------------------------------------------------+
+Impuesto ($)
+Gastos Notariales ($)
+
+me falta llenarlo pero esa es la idea de aqui a mañana hego esta parte, por ahora lo ideal es sacar los datos del html adjunto y subirlos a la base de datos y luego mostrarlos por pantalla.
